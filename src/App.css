@@ -46,7 +46,6 @@
 
 .header {
   height: 90vh;
-  z-index: -2;
   position: relative;
   top: 0;
   display: flex;
@@ -63,14 +62,12 @@
 }
 
 .header__hello{
-  z-index: -2;
   padding-left: 80px;
   font-size: 80px;
   color:#fff;
 }
 
 .header__intro {
-  z-index: 3;
   perspective: 10px;
   padding-left: 80px;
   font-size: 60px;
